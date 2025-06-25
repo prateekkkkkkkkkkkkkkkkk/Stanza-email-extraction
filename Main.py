@@ -51,7 +51,7 @@ EMAIL CONTENT:
     )
     return response.choices[0].message.content.strip()
 
-# ---- MAIN PROCESSING ----
+#  MAIN PROCESSING 
 results = []
 
 for eml_file in Path(email_dir).glob("*.eml"):
